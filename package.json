@@ -16,12 +16,16 @@
         "redux": "^4.0.1",
         "semantic-ui-react": "^0.86.0"
     },
-    "homepage": "http://reo777.github.io/reofolio",
+    "homepage": "http://reo777.github.io/reofolio777",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "preghpages": "yarn build",
+        "ghpages": "gh-pages -d build",
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
