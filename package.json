@@ -1,36 +1,38 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.4",
-    "react-bootstrap": "^1.0.0-beta.5",
-    "react-dom": "^16.8.4",
-    "react-redux": "^6.0.1",
-    "react-router": "^4.4.0",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "redux": "^4.0.1",
-    "semantic-ui-react": "^0.86.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "sass": "^1.17.3"
-  }
+    "name": "portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "gh-pages": "^2.0.1",
+        "node-sass": "^4.11.0",
+        "react": "^16.8.4",
+        "react-bootstrap": "^1.0.0-beta.5",
+        "react-dom": "^16.8.4",
+        "react-redux": "^6.0.1",
+        "react-router": "^4.4.0",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "2.1.8",
+        "redux": "^4.0.1",
+        "semantic-ui-react": "^0.86.0"
+    },
+    "homepage": "http://reo777.github.io/reofolio",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ],
+    "devDependencies": {
+        "sass": "^1.17.3"
+    }
 }
