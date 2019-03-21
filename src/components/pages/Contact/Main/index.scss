@@ -1,0 +1,20 @@
+.sns_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    .ui.button {
+        width: 140px;
+        margin: 7px;
+    }
+}
+
+h2 {
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+p {
+    padding-top: 15px;
+}

@@ -10,15 +10,15 @@ function Routes() {
   return (
     <div className="common_routes">
       <div className="main_header">
-        <div>
-          <Link to={`${paths.top.main}`}>Main</Link>
-        </div>
-        <div>
+        <h1>
+          <Link to={`${paths.top.main}`}>Top</Link>
+        </h1>
+        <h1>
           <Link to={`${paths.about.main}`}>About</Link>
-        </div>
-        <div>
+        </h1>
+        <h1>
           <Link to={`${paths.contact.main}`}>Contact</Link>
-        </div>
+        </h1>
       </div>
 
       <Switch>

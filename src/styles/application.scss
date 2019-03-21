@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(45deg, rgb(29, 29, 31), rgb(87, 86, 95));
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    dt,
+    dl,
+    dd,
+    a {
+        color: #FF2C75;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+    text-align: center;
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,28 @@
+.about {
+    .intro {
+        padding-bottom: 50px;
+        h2 {
+            padding-bottom: 40px;
+            margin: 0;
+        }
+    }
+}
+
+.skills_title {
+    padding-top: 30px;
+}
+
+.skills {
+    padding: 40px 0;
+    display: -webkit-inline-box;
+    .skill-icon {
+        padding: {
+            right: 14px;
+            left: 14px;
+        }
+        img {
+            max-height: 70px;
+            max-width: 140px
+        }
+    }
+}
