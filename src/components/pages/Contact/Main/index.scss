@@ -1,20 +1,30 @@
-.sns_buttons {
+.contact_me {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
-    .ui.button {
-        width: 140px;
-        margin: 7px;
+    .sns_button {
+        font-family: 'Rubik Mono One', sans-serif;
+        border: 1px solid rgb(230, 231, 137);
+        border-radius: 8px;
+        padding: 15px;
+        width: 20%;
+        margin: 10px 0;
+        &:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 3 rgb(230, 231, 137);
+        }
+        &:active {
+            transform: none;
+            box-shadow: none;
+        }
+    }
+    .email {
+        margin-top: 40px;
     }
 }
 
 h2 {
     padding-bottom: 40px;
     margin: 0;
-}
-
-p {
-    padding-top: 15px;
 }
