@@ -8,6 +8,8 @@ import postman from "../../../../assets/postman.png";
 import sass from "../../../../assets/sass.png";
 import vscode from "../../../../assets/vscode.png";
 import vue from "../../../../assets/vue.png";
+import profile from "../../../../assets/profile.jpeg";
+
 import "./index.scss";
 class About extends Component {
   render() {
@@ -16,10 +18,17 @@ class About extends Component {
         <div className="about">
           <div className="intro">
             <h2>Profile</h2>
-            <p>Name: Reo Ishiyama</p>
-            <p>Birthday: 1997/7/27</p>
-            <p>Language: 日本語,英語</p>
-            <p>Strength: 超ポジティブ </p>
+            <div className="info_about_me">
+              <div className="info_column">
+                <div className="profile_pic">
+                  <img src={profile} alt="" />
+                </div>
+                <p>Name: Reo Ishiyama</p>
+                <p>Birthday: 1997/7/27</p>
+                <p>Language: 日本語,英語</p>
+                <p>Strength: 超ポジティブ </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="skills_titile">

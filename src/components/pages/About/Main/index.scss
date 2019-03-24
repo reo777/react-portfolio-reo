@@ -5,6 +5,29 @@
             padding-bottom: 40px;
             margin: 0;
         }
+        .info_about_me {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
+            .info_column {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .profile_pic {
+                    align-self: center;
+                    padding-bottom: 25px;
+                    img {
+                        height: 180px;
+                        width: 180px;
+                    }
+                }
+                p {
+                    font-size: 25px;
+                }
+            }
+        }
     }
 }
 
