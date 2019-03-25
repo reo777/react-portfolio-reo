@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/reofolio777/static/media/profile.e00bd79a.jpeg"
   },
   {
-    "revision": "b2b9e328f7d0cb162c47c22bb06a754a",
+    "revision": "8fc43c325f66eb438a75a0df99afecc1",
     "url": "/reofolio777/index.html"
   }
 ];
